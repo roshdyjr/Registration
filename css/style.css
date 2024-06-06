@@ -1,0 +1,57 @@
+body {
+  background-color: #24353f;
+}
+
+.content {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  color: #17a2b8;
+}
+
+ul {
+  list-style: decimal;
+}
+
+input {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+input::placeholder {
+  color: #b6b6b6 !important;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+}
+
+#home {
+  height: 75vh;
+}
+
+.btn-outline-warning {
+  border: solid 1px #ffc107;
+}
+
+.logout-warning-container {
+  background-color: #0007;
+}
+
+.nav-link {
+    color: #ffc107;
+}
+
+.navbar-collapse .nav-link {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 100px;
+}

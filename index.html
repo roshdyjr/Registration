@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Roshdy's Login System</title>
+  </head>
+  <body>
+    <div class="container my-5 text-center">
+      <div class="content m-auto w-75 p-5">
+        <h1>Smart Login System</h1>
+        <input
+          type="email"
+          id="signinEmail"
+          placeholder="Enter your email"
+          class="form-control my-3"
+        />
+        <input
+          type="password"
+          id="signinPassword"
+          placeholder="Enter your Password"
+          class="form-control my-3"
+        />
+        <p id="signinMsg"></p>
+        <button id="loginBtn" class="btn btn-outline-info w-100 my-3">Login</button>
+        <p class="text-white">Don’t have an account? <a class='text-white' href='signup.html'>Sign Up</a></p>
+        <div id="loadingIndicator" class="text-center d-none">
+          <div class="spinner-border text-info">
+          </div>
+          <p class="mt-2 text-white">Logging in...</p>
+        </div>
+      </div>
+
+    </div>
+    <script src="js/signin.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
