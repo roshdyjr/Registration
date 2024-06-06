@@ -3,7 +3,8 @@ body {
 }
 
 .content {
-  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+          box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
 }
 
 h1,
@@ -26,12 +27,29 @@ input {
   color: #fff !important;
 }
 
+input::-webkit-input-placeholder {
+  color: #b6b6b6 !important;
+}
+
+input::-moz-placeholder {
+  color: #b6b6b6 !important;
+}
+
+input:-ms-input-placeholder {
+  color: #b6b6b6 !important;
+}
+
+input::-ms-input-placeholder {
+  color: #b6b6b6 !important;
+}
+
 input::placeholder {
   color: #b6b6b6 !important;
 }
 
 input:focus {
-  box-shadow: 0 0 0 0 transparent !important;
+  -webkit-box-shadow: 0 0 0 0 transparent !important;
+          box-shadow: 0 0 0 0 transparent !important;
 }
 
 #home {
